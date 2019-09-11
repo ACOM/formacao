@@ -1,6 +1,22 @@
-<span
-    class="glyphicon"
+ <span class="glyphicon"
     [class.glyphicon-star]="isFavorite"
-    [class.glyphicon-star-empyt]="!isFavorite"
+    [class.glyphicon-star-empty]="!isFavorite"
+    (click)="onClick()"
+></span> 
+
+<span class="mat-icon"
+    [class.mat-icon-mood_bad]="!isFavorite"
+    [class.mat-icon-mood]="isFavorite"
     (click)="onClick()"
 ></span>
+<span class="ng-fa-icon"
+    [class.ng-fa-icon-mood_bad]="!isFavorite"
+    [class.ng-fa-icon-mood]="isFavorite"
+    (click)="onClick()"
+></span>
+<fa-icon [icon]="faCoffee"></fa-icon>
+xpto
+<mat-icon>mood</mat-icon>
+xpto
+<i class="ng-fa-icon"
+[class.ng-fa-icon]="faCoffee"></i>
