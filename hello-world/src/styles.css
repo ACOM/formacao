@@ -7,3 +7,7 @@
 body { padding: 20px; }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/*Mod 07 Aula 07*/
+.form-control.ng-touched.ng-invalid {
+    border: 2px solid red;
+}

@@ -17,6 +17,21 @@
 <fa-icon [icon]="faCoffee"></fa-icon>
 xpto
 <mat-icon>mood</mat-icon>
-xpto
+<br>
+xptoll<br>
+<span class="material-icons"
+    [class.material-icons-arrow_drop_down]="!isFavorite"
+    [class.material-icons-arrow_drop_up]="isFavorite"
+    (click)="onClick()"
+></span>
+xptoll<br>
+
+
 <i class="ng-fa-icon"
 [class.ng-fa-icon]="faCoffee"></i>
+<i class="material-icons">arrow_drop_down</i>
+<div class="navigation">
+        <span><i class="material-icons">arrow_drop_down</i></span>
+        <span><i class="material-icons">arrow_drop_up</i></span>
+        <span class="counter">select floor</span>
+      </div>

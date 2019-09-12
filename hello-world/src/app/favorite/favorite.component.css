@@ -1,0 +1,9 @@
+.star {
+    color: orange;
+}
+.star1:before {
+    content : '★'
+}
+.star2:before {
+    content : '★★'
+}
