@@ -1,7 +1,7 @@
 import { SummaryPipe } from './summary.pipe';
 import { CoursesComponent } from './courses.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -25,6 +25,18 @@ import { M07aula12ContactFormComponent } from './Modulo_07/m07aula12-contact-for
 import { M07aula13ContactFormComponent } from './Modulo_07/m07aula13-contact-form/m07aula13-contact-form.component';
 import { M07aula14ContactFormComponent } from './Modulo_07/m07aula14-contact-form/m07aula14-contact-form.component';
 import { M07aula15ContactFormComponent } from './Modulo_07/m07aula15-contact-form/m07aula15-contact-form.component';
+import { M08aula02SignupFormComponent } from './Modulo_08/m08aula02-signup-form/m08aula02-signup-form.component';
+import { M08aula03SignupFormComponent } from './Modulo_08/m08aula03-signup-form/m08aula03-signup-form.component';
+import { M08aula04SignupFormComponent } from './Modulo_08/m08aula04-signup-form/m08aula04-signup-form.component';
+import { M08aula05SignupFormComponent } from './Modulo_08/m08aula05-signup-form/m08aula05-signup-form.component';
+import { M08aula06SignupFormComponent } from './Modulo_08/m08aula06-signup-form/m08aula06-signup-form.component';
+import { M08aula07SignupFormComponent } from './Modulo_08/m08aula07-signup-form/m08aula07-signup-form.component';
+import { M08aula08SignupFormComponent } from './Modulo_08/m08aula08-signup-form/m08aula08-signup-form.component';
+import { M08aula09SignupFormComponent } from './Modulo_08/m08aula09-signup-form/m08aula09-signup-form.component';
+import { M08aula10SignupFormComponent } from './Modulo_08/m08aula10-signup-form/m08aula10-signup-form.component';
+import { M08aula11SignupFormComponent } from './Modulo_08/m08aula11-signup-form/m08aula11-signup-form.component';
+import { M08aula12NewCourseComponent } from './Modulo_08/m08aula12-new-course/m08aula12-new-course.component';
+import { M08aula13NewCourseComponent } from './Modulo_08/m08aula13-new-course/m08aula13-new-course.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +57,20 @@ import { M07aula15ContactFormComponent } from './Modulo_07/m07aula15-contact-for
     M07aula13ContactFormComponent,
     M07aula14ContactFormComponent,
     M07aula15ContactFormComponent,
- 
+    M08aula02SignupFormComponent,
+    M08aula03SignupFormComponent,
+    M08aula04SignupFormComponent,
+    M08aula05SignupFormComponent,
+    M08aula06SignupFormComponent,
+    M08aula07SignupFormComponent,
+    M08aula08SignupFormComponent,
+    M08aula09SignupFormComponent,
+    M08aula10SignupFormComponent,
+    M08aula11SignupFormComponent,
+    M08aula12NewCourseComponent,
+    M08aula13NewCourseComponent,
+  
+    
   ],
   imports: [
     BrowserModule,
@@ -53,6 +78,7 @@ import { M07aula15ContactFormComponent } from './Modulo_07/m07aula15-contact-for
     BrowserAnimationsModule,
     MatIconModule,
     FontAwesomeModule,
+    ReactiveFormsModule, //M08Aula03
   ],
   providers: [
     CousesService
