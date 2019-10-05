@@ -1,3 +1,4 @@
+
 import { SummaryPipe } from './summary.pipe';
 import { CoursesComponent } from './courses.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -37,6 +38,21 @@ import { M08aula10SignupFormComponent } from './Modulo_08/m08aula10-signup-form/
 import { M08aula11SignupFormComponent } from './Modulo_08/m08aula11-signup-form/m08aula11-signup-form.component';
 import { M08aula12NewCourseComponent } from './Modulo_08/m08aula12-new-course/m08aula12-new-course.component';
 import { M08aula13NewCourseComponent } from './Modulo_08/m08aula13-new-course/m08aula13-new-course.component';
+import { M09aula03PostsComponent } from './Modulo_09/m09aula03-posts/m09aula03-posts.component';
+import { HttpModule } from '@angular/http';
+import { M09aula04PostsComponent } from './Modulo_09/m09aula04-posts/m09aula04-posts.component';
+import { M09aula05PostsComponent } from './Modulo_09/m09aula05-posts/m09aula05-posts.component';
+import { M09aula06PostsComponent } from './Modulo_09/m09aula06-posts/m09aula06-posts.component';
+import { M09aula07PostsComponent } from './Modulo_09/m09aula07-posts/m09aula07-posts.component';
+import { M09aula09PostService } from './services/m09aula09-post.service';
+import { M09aula09PostsComponent } from './Modulo_09/m09aula09-posts/m09aula09-posts.component';
+import { M09aula11PostService } from './services/m09aula11-post.service';
+import { M09aula11PostsComponent } from './Modulo_09/m09aula11-posts/m09aula11-posts.component';
+import { M09aula12PostService } from './services/m09aula12-post.service';
+import { M09aula12PostsComponent } from './Modulo_09/m09aula12-posts/m09aula12-posts.component';
+import { M09aula13PostService } from './services/m09aula13-post.service';
+import { M09aula13PostsComponent } from './Modulo_09/m09aula13-posts/m09aula13-posts.component';
+
 
 @NgModule({
   declarations: [
@@ -69,6 +85,16 @@ import { M08aula13NewCourseComponent } from './Modulo_08/m08aula13-new-course/m0
     M08aula11SignupFormComponent,
     M08aula12NewCourseComponent,
     M08aula13NewCourseComponent,
+    M09aula03PostsComponent,
+    M09aula04PostsComponent,
+    M09aula05PostsComponent,
+    M09aula06PostsComponent,
+    M09aula07PostsComponent,
+    M09aula09PostsComponent,
+    M09aula11PostsComponent,
+    M09aula12PostsComponent,
+    M09aula13PostsComponent,
+
   
     
   ],
@@ -79,9 +105,14 @@ import { M08aula13NewCourseComponent } from './Modulo_08/m08aula13-new-course/m0
     MatIconModule,
     FontAwesomeModule,
     ReactiveFormsModule, //M08Aula03
+    HttpModule
   ],
   providers: [
-    CousesService
+    CousesService,
+    M09aula09PostService,
+    M09aula11PostService,
+    M09aula12PostService,
+    M09aula13PostService,
   ],
   bootstrap: [AppComponent]
 })
